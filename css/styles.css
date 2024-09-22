@@ -637,10 +637,14 @@ button {
 }
 
 
-.social-container {
-    margin-right: 120px;
+.footer-full {
     display: flex;
     align-items: baseline;
+
+}
+
+.footer-content {
+    margin-right: 120px;
 }
 
 .logo-footer-span {
