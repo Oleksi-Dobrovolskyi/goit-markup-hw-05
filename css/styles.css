@@ -497,11 +497,15 @@ button {
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.social-link:hover {
+.social-sub {
+    gap: 24px;
+}
+
+.social-sub:hover {
     background-color: #404bbf;
 }
 
-.social-link:focus {
+.social-sub:focus {
     background-color: #404BBF;
 }
 
