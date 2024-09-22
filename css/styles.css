@@ -479,18 +479,16 @@ button {
 
 .social {
     display: flex;
-    gap: 24px;
     align-items: center;
     justify-content: center;
     margin-top: 8px;
 }
 
-.social-link {
+.social-posyl {
     display: flex;
     align-items: center;
     justify-content: center;
     gap: 24px;
-
     width: 40px;
     height: 40px;
     border-radius: 50%;
@@ -499,11 +497,11 @@ button {
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.social-link:hover {
+.social-posyl:hover {
     background-color: #404bbf;
 }
 
-.social-link:focus {
+.social-posyl:focus {
     background-color: #404BBF;
 }
 
