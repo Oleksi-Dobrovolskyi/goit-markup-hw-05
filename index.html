@@ -565,5 +565,70 @@
         </div>
       </div>
     </footer>
+
+    <!----------------------------------------------------backdrop-->
+
+    <div class="modal-fon">
+      <div class="modal-okno">
+        <button class="close-button" type="button">
+          <svg class="modal-close-icon" width="8" height="8">
+            <use href="./images/icons.svg#close-icon"></use>
+          </svg>
+        </button>
+
+        <p class="leave">Leave your contacts and we will call you back</p>
+        <form class="inputs">
+          <div class="client-name">
+            <label class="client-name-label" for="user-name">Name</label>
+            <input
+              class="client-name-input"
+              id="user-name"
+              name="user-name"
+              type="text"
+            />
+          </div>
+          <div class="client-phone">
+            <label class="client-phone-label" for="user-phone">Phone</label>
+            <input
+              class="client-phone-input"
+              id="user-phone"
+              name="user-phone"
+              type="text"
+            />
+          </div>
+          <div class="client-mail">
+            <label class="client-mail-label" for="user-mail">Email</label>
+            <input
+              class="client-mail-input"
+              id="user-mail"
+              name="user-mail"
+              type="text"
+            />
+          </div>
+          <div class="client-name">
+            <label class="comment" for="user-comment">Comment</label>
+            <textarea
+              class="text-area"
+              name="user-comment"
+              id="user-comment"
+            ></textarea>
+          </div>
+        </form>
+        <div class="privacy-policy">
+          <input
+            class="privacy-input"
+            id="privacy"
+            name="privacy-policy"
+            value="true"
+            type="checkbox"
+          />
+          <label class="privacy-label" for="privacy"
+            >I accept the terms and conditions of the
+            <a class="privacy-link" href="">Privacy Policy</a></label
+          >
+        </div>
+        <button class="send" type="submit">Send</button>
+      </div>
+    </div>
   </body>
 </html>
