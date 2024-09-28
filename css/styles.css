@@ -757,6 +757,7 @@ button {
     overflow: auto;
     border-radius: 4px;
     position: relative;
+
 }
 
 .close-button {
@@ -800,6 +801,7 @@ button {
     text-align: center;
     margin-top: 50px;
     margin-bottom: 20px;
+    text-transform: uppercase;
 }
 
 .form {
@@ -815,6 +817,11 @@ button {
     letter-spacing: 0.04em;
     color: #8e8f99;
     margin-bottom: 4px;
+    display: block;
+}
+
+.client-name-input {
+    padding-left: 38px;
 }
 
 .client-phone-lable {
@@ -826,13 +833,14 @@ button {
     margin-bottom: 4px;
 }
 
-.client-male-lable {
+.client-emale-lable {
     font-weight: 400;
     font-size: 12px;
     line-height: 117%;
     letter-spacing: 0.04em;
     color: #8e8f99;
     margin-bottom: 4px;
+
 }
 
 .comment {
@@ -842,4 +850,97 @@ button {
     letter-spacing: 0.04em;
     color: #8e8f99;
     margin-bottom: 4px;
+    margin-left: 24px;
+}
+
+.name-icon {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 16px;
+}
+
+.input-icon {
+    position: relative;
+
+}
+
+
+
+.phone-icon {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 16px;
+}
+
+.input-phone {
+    position: relative;
+}
+
+
+
+.client-phone-input {
+    padding-left: 38px;
+}
+
+
+
+
+
+
+.email-icon {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 16px;
+}
+
+.input-email {
+    position: relative;
+}
+
+.client-email-input {
+    padding-left: 38px;
+}
+
+.text-area {
+    width: 360px;
+    height: 120px;
+    margin-left: 24px;
+    resize: none;
+
+}
+
+.privacy-label {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 117%;
+    letter-spacing: 0.04em;
+    color: #8e8f99;
+}
+
+.privacy-policy-span {
+    line-height: 133%;
+    text-decoration: underline;
+    text-decoration-skip-ink: none;
+    color: #4d5ae5;
+}
+
+.send {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0.04em;
+    text-align: center;
+    color: #fff;
+    padding: 16px 32px;
+    border-radius: 4px;
+    width: 159px;
+    height: 56px;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+    background: #4d5ae5;
+    margin-bottom: 42px;
+    margin-left: 120px;
+    margin-top: 24px;
 }
