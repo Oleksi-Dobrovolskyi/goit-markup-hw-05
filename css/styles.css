@@ -731,6 +731,55 @@ button {
     margin-bottom: 16px;
 }
 
+.subscriber {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0.02em;
+    color: #fff;
+    margin-bottom: 16px;
+}
+
+.pole {
+    display: flex;
+}
+
+.E-mail::placeholder {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 200%;
+    letter-spacing: 0.04em;
+    color: #fff;
+    margin-left: 16px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+.label-input-footer {
+    border: 1px solid #fff;
+    border-radius: 4px;
+    width: 264px;
+    height: 40px;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+}
+
+.vidpravyty {
+    border-radius: 4px;
+    padding: 8px 24px;
+    width: 165px;
+    height: 40px;
+    background-color: #4d5ae5;
+    margin-left: 24px;
+}
+
+.send-icon {
+    fill: #fff;
+}
+
+
+
+
+
 /*backdrop*/
 
 .modal-fon {
