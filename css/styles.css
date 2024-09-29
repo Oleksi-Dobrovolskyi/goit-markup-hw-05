@@ -742,6 +742,7 @@ button {
 
 .pole {
     display: flex;
+    gap: 24px;
 }
 
 .E-mail::placeholder {
@@ -749,7 +750,7 @@ button {
     font-size: 12px;
     line-height: 200%;
     letter-spacing: 0.04em;
-    color: #fff;
+    color: #ffffff;
     margin-left: 16px;
     margin-top: 8px;
     margin-bottom: 8px;
@@ -761,6 +762,15 @@ button {
     width: 264px;
     height: 40px;
     box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+    background-color: transparent;
+    font-size: 12px;
+    line-height: 2;
+    letter-spacing: 0.04em;
+    padding-left: 16px;
+    color: #ffffff;
+
+
+
 }
 
 .vidpravyty {
@@ -770,10 +780,23 @@ button {
     height: 40px;
     background-color: #4d5ae5;
     margin-left: 24px;
+    min-width: 165px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #ffffff;
+    border: none;
+
 }
 
 .send-icon {
     fill: #fff;
+    width: 24px;
+    height: 24px;
+    margin-left: 16px;
 }
 
 
