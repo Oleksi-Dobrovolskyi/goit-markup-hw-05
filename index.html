@@ -620,7 +620,7 @@
             <label class="client-phone-label" for="phone">Phone</label>
             <div class="input-phone">
               <input
-                class="client-phone-input"
+                class="client-name-input"
                 id="user-phone"
                 name="phone"
                 type="text"
@@ -636,7 +636,7 @@
             <label class="client-email-label" for="mail">Email</label>
             <div class="input-email">
               <input
-                class="client-email-input"
+                class="client-name-input"
                 id="user-email"
                 name="mail"
                 type="email"
@@ -666,15 +666,20 @@
               value="true"
               type="checkbox"
             />
-            <label class="privacy-label" for="privacy"
+
+            <label class="privacy-label" for="user-privacy"
+              ><span class="chekbox-button-span"
+                ><svg class="chekbox-icon" width="10" height="8">
+                  <use href="./images/icons.svg#checkbox"></use></svg></span
               >I accept the terms and conditions of the
               <a class="privacy-link" href=""
                 ><span class="privacy-policy-span">Privacy Policy</span></a
               ></label
             >
           </div>
+
+          <button class="send" type="submit">Send</button>
         </form>
-        <button class="send" type="submit">Send</button>
       </div>
     </div>
   </body>
