@@ -883,11 +883,11 @@ button {
     letter-spacing: 0.02em;
     text-align: center;
     color: #2e2f42;
-    text-align: center;
+
     margin-top: 50px;
     margin-bottom: 20px;
     text-transform: uppercase;
-    margin-bottom: 16px;
+    margin-bottom: 24px;
 }
 
 .form {
@@ -923,7 +923,7 @@ button {
 }
 
 .client-name-input:focus {
-    color: #4D5AE5;
+    border-color: #4D5AE5;
 }
 
 .name-icon:focus {
@@ -1052,7 +1052,11 @@ button {
     color: #8e8f99;
 }
 
-.privacy-input:checked {
+.privacy-policy {
+    margin-bottom: 24px;
+}
+
+.privacy-input:checked+.privacy-label>.chekbox-button-span {
     background-color: #404bbf;
     border: none;
     fill: #F4F4FD;
