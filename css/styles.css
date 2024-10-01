@@ -897,7 +897,7 @@ button {
 }
 
 .client-name {
-    margin-bottom: 8px;
+    margin-bottom: 16px;
 }
 
 .client-name-label {
@@ -1059,6 +1059,10 @@ button {
 
 .privacy-policy {
     margin-bottom: 24px;
+}
+
+.privacy-link {
+    color: #4d5ae5;
 }
 
 .privacy-input:checked+.privacy-label>.chekbox-button-span {
