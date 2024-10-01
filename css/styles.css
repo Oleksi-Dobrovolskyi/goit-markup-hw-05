@@ -1017,6 +1017,10 @@ button {
     padding-left: 38px;
 }
 
+.client-comment {
+    margin-bottom: 16px;
+}
+
 .text-area {
     width: 360px;
     height: 120px;
