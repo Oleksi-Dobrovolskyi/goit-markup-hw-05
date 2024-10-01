@@ -277,7 +277,7 @@ button {
 .order-service {
 
     font-weight: 500;
-    font-size: 16;
+    font-size: 16px;
     line-height: 150%;
     letter-spacing: 0.04em;
     color: #fff;
@@ -305,7 +305,7 @@ button {
 
     white-space: nowrap;
     clip-path: inset(100%);
-    clip: rect(0 0 0 0);
+    clip: rect(0, 0, 0, 0);
     overflow: hidden;
 }
 
@@ -346,7 +346,7 @@ button {
 .vectors-text {
 
     font-weight: 400;
-    font-size: 16;
+    font-size: 16px;
     line-height: 150%;
     letter-spacing: 0.02em;
     color: #434455;
@@ -463,7 +463,7 @@ button {
 .team {
 
     font-weight: 700;
-    font-size: 36;
+    font-size: 36px;
     line-height: 111%;
     letter-spacing: 0.02em;
     text-align: center;
@@ -538,7 +538,7 @@ button {
 .portfolio {
 
     font-weight: 700;
-    font-size: 36;
+    font-size: 36px;
     line-height: 111%;
     letter-spacing: 0.02em;
     text-align: center;
@@ -632,7 +632,7 @@ button {
 .portfolio-text {
 
     font-weight: 400;
-    font-size: 16;
+    font-size: 16px;
     line-height: 150%;
     letter-spacing: 0.02em;
     color: #434455;
