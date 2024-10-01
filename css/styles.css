@@ -831,7 +831,7 @@ button {
     background: #fcfcfc;
     overflow: auto;
     border-radius: 4px;
-    position: relative;
+
     transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
     padding: 72px 24px 24px 24px;
 
@@ -887,7 +887,7 @@ button {
     margin-top: 50px;
     margin-bottom: 20px;
     text-transform: uppercase;
-    margin-bottom: 24px;
+    margin-bottom: 16px;
 }
 
 .form {
@@ -909,6 +909,7 @@ button {
     margin-bottom: 4px;
     display: block;
 
+
 }
 
 .client-name-input {
@@ -924,11 +925,15 @@ button {
 
 .client-name-input:focus {
     border-color: #4D5AE5;
+
 }
 
-.name-icon:focus {
+.client-name-input:focus+.name-icon {
     fill: #4D5AE5;
 }
+
+
+
 
 .client-phone-lable {
     font-weight: 400;
