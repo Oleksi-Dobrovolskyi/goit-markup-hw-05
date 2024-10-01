@@ -897,7 +897,7 @@ button {
 }
 
 .client-name {
-    margin-bottom: 16px;
+    margin-bottom: 8px;
 }
 
 .client-name-label {
@@ -914,7 +914,7 @@ button {
 
 .client-name-input {
     padding-left: 38px;
-    width: 100%;
+    width: 360px;
     height: 40px;
     border: 1px solid rgba(46, 47, 66, 0.4);
     border-radius: 4px;
