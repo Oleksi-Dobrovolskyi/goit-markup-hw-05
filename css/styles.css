@@ -841,15 +841,15 @@ button {
 }
 
 .modal-fon.is-open {
-    opacity: 0;
-    visibility: hidden;
-    pointer-events: none;
-}
-
-.modal-fon:not(.is-open) {
     opacity: 1;
     visibility: visible;
     pointer-events: auto;
+}
+
+.modal-fon:not(.is-open) {
+    opacity: 0;
+    visibility: hidden;
+    pointer-events: none;
 }
 
 .close-button {
