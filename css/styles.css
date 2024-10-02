@@ -807,7 +807,7 @@ button {
 
 /*backdrop*/
 
-.backdrop {
+.modal-fon {
     position: fixed;
     top: 0;
     left: 0;
@@ -840,13 +840,13 @@ button {
 
 }
 
-.backdrop.is-open {
+.modal-fon.is-open {
     opacity: 0;
     visibility: hidden;
     pointer-events: none;
 }
 
-.backdrop:not(.is-open) {
+.modal-fon:not(.is-open) {
     opacity: 1;
     visibility: visible;
     pointer-events: auto;
