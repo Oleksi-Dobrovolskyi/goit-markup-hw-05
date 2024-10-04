@@ -1077,7 +1077,7 @@ button {
     letter-spacing: 0.04em;
     color: #8e8f99;
 
-    gap: 8px;
+
 
 
 
@@ -1112,6 +1112,7 @@ button {
     align-items: center;
     fill: transparent;
     border: 1px solid rgba(46, 47, 66, 0.4);
+    margin-right: 8px;
 
 
 }
